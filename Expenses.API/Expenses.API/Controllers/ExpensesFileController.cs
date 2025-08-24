@@ -6,7 +6,7 @@ public class ExpensesFileController : ControllerBase
 {
     private readonly FileDataService _service = new();
 
-    [HttpGet]
+    [HttpGet("GetTeste")]
     public IActionResult GetAll()
     {
         var expenses = _service.GetAll();
