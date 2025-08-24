@@ -15,9 +15,9 @@ export class StudentService {
   //private apiUrl = 'https://meuappapi.azurewebsites.net/api/Student';
   //private apiUrlL = 'https://fullstack-6-40oe.onrender.com';
 
-  private apiUrl = 'https://fullstack-6-40oe.onrender.com/api/Students';
+  // private apiUrl = 'https://fullstack-6-40oe.onrender.com/api/Students';
 
-  // private apiUrl = 'http://localhost:5298/api/Students';
+  private apiUrl = 'http://localhost:5000/api/Students';
 
   constructor(private http: HttpClient) {}
 
