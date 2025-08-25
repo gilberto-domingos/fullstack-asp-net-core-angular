@@ -40,8 +40,10 @@ public class FileDataService
                 "1,Ana Souza,50\n" +
                 "2,Carlos Pereira,25\n" +
                 "3,Mariana Lima,75\n" +
-                "4,João Silva,10\n" +
-                "5,Testando Novo,0\n");
+                "4,João Silva,25\n" +
+                "5,Susan Pereira,50\n" +
+                "6,Roberto Shimdth,50\n" +
+                "7,Oliver Junior,50\n");
         }
 
         // ---------- PURCHASES ----------
