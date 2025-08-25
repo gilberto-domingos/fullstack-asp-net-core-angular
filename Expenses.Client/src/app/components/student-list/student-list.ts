@@ -48,7 +48,7 @@ export class StudentList implements OnInit {
 
   onDelete(student: Student): void {
     if (!student.id) {
-      this.loadStudents;
+      this.loadStudents();
       return;
     }
 
@@ -59,7 +59,7 @@ export class StudentList implements OnInit {
 
     const confirmDelete = confirm(`Tem certeza que deseja apagar o aluno "${student.name}"?`);
     if (!confirmDelete) {
-      this.loadStudents;
+      this.loadStudents();
       return;
     }
 
