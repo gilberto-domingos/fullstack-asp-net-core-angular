@@ -7,10 +7,10 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: center; /* centraliza vertical */
-  align-items: center; /* centraliza horizontal */
+  justify-content: center;
+  align-items: center;
 
-  background: rgba(255, 255, 255, 0.8); /* fundo semi-transparente */
+  background: rgba(255, 255, 255, 0.8);
   z-index: 1000;
 }
 

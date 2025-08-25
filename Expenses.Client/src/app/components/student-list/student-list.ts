@@ -61,6 +61,7 @@ export class StudentList implements OnInit {
       next: () => this.loadStudents(),
       error: (error) => console.error('Erro ao deletar aluno:', error),
     });
+    this.loadStudents();
   }
 
   ngOnInit() {
